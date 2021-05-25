@@ -1,0 +1,94 @@
+body{
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+}
+.post{
+    background-color: grey;
+    width: 500px;
+    height: 600px;
+    margin: auto;
+    margin-top: 60px;
+    border: 1px solid black
+}
+.postheader{
+    background-color: white;
+    height: 10%;
+    width: 100%;
+    display: flex;
+    border: 1px solid black;
+    justify-content: space-between;
+}
+.interactivebar{
+    background-color: white;
+    height: 20%;
+    width: 95%;
+    display: flex;
+    padding-top: 15px;
+    margin:auto;
+} 
+.footer .interactivebar i:last-child{
+    margin-left:345px;
+}
+.fivelogo{
+    height:30px;
+    width:auto;
+    padding-right: none;
+    padding-left:10px;
+    margin-top: 20px;
+}
+.contentheader{
+    display:inline-flex;
+}
+.author{
+    display:block;
+    height: 5px;
+    padding: 10px;
+}
+.author, p{
+    margin:0;
+}
+.image{
+    width: 100%;
+    height:60%;
+    margin:auto;
+}
+.share{
+    float: right;
+    padding:10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    size: 50px;
+} 
+
+img{
+    width: 100%;
+    height: 100%;
+    margin:auto;
+}
+.footer{
+    height:30%;
+    width:100%;
+    margin:auto;
+    background-color: white; 
+}
+.fabfa-html5{
+    float: left;
+}
+.likedby P{
+    margin-left:15px;
+}
+.fa-heart:before {
+    content: "\f004";
+    padding-right:5px
+}
+.fa-comment:before {
+    content: "\f075";
+    padding-right: 5px;
+}
+.likedby{
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+P{
+    Margin-left: 15px;
+}
